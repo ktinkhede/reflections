@@ -10,3 +10,9 @@ Staging area provides you a middlep latform, wherein you can make all the necess
 bafore actually packing you changes into a commit.
 
 It allowes you to choose which files should be included in a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Changes which we feel are part of one logical change, can be added to staging area from working directory.
+Those changes that should not be part of the currently planned commit will still be present in working directory.
+Since staging area contains only those changes which we have added to staging area, only those changes will be committed.
