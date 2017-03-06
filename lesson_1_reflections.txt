@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Since we were able to spot the actual line where the differences exist in two versions of file, we need not scan the entire file.
+	Now we can concentrate only on those lines which are suspected to have caused the error, and hence finding bugs become easy.
+	Thats a great stuff.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It becomes pretty easy to manage files which are changed over period of time.
+	Suppose if I am making a change to a previously working file. IF that changed caused some other functionality to break.
+	In this scenario we can recover the file using previous version.
+	Then try a new way to achieve the same change.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Its always better to have control over commit, since its difficult for the system to guess when to commit codes.
+	Sometimes it takes lot of time to remove the bug.
+	Sometimes it takes small amount of time to remove bug, hence within given time , then system might commit multiple changes in a single commit
+	Hence its better to leave the judgement with programmer.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because git is specifically designed for handling versioning of coding related files.
+	Hence git need to make sure, that it can handle multiple files. Since code is interdependent.
+	Whereas for google drive each document is a separated file which is completely unrelated to each other.
+	Hence drive treat them seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log helps us find all the versions of the project, or in other words all the checkpoints of project.
+	Then we can choose individual commit ids to compare both the versions.
+	It will show all the changes in all the files.
+	This way we can view history of our projecgt and changes made.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    As I can always recover my error free version by checking out older versions, 
+	I can make changes to experiment with my file.
+	Even if my changes break the code, I can always go back to previous version of code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for versioning of my college project
+	I will also love to use git for my personal projects where I am learning nodejs
+	I will also use git for contributing to open source projects
