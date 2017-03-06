@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository, git start tracking that directory for version control and changes.
+If we do not initialize git repository, gthen git will have no information about which directories to keep track of.
+Obviously git cannot keep track of all the directories on system.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area provides you a middlep latform, wherein you can make all the necessary arrangements,
+bafore actually packing you changes into a commit.
+
+It allowes you to choose which files should be included in a commit.
