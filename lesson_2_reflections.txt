@@ -37,4 +37,4 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 
 Git's automatic merging reduces the developers effort of manually merging the entire code.
 There are certain situations when git cannot resolve the commit. At that point developer has to manually entertain that merge.
-This is called as conflict resolution.
+This is called as conflict resolution. 
