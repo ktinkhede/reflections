@@ -27,3 +27,8 @@ How do the diagrams help you visualize the branch structure?
 
 Since we can draw flowchart like diagrams with nodes and their connections, we can easily guess
 which commits are rechable from where, where currently our head is pointing, how branches are placed.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge two branches together changes in both branches are combined into the currently checked out branch.
+A new commit is created in the currently checked out branch.
