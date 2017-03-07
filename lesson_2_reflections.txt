@@ -32,3 +32,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 When we merge two branches together changes in both branches are combined into the currently checked out branch.
 A new commit is created in the currently checked out branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging reduces the developers effort of manually merging the entire code.
+There are certain situations when git cannot resolve the commit. At that point developer has to manually entertain that merge.
+This is called as conflict resolution.
