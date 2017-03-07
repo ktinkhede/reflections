@@ -22,3 +22,8 @@ What are some situations when branches would be helpful in keeping your history 
 We can use branches when we want to experiment with our code. We can keep stable version untouched.
 Then create a new branch and start experimenting on the new branch. 
 If we fill that the new experiment is successful, then we can merge the branches to bring changes to main branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Since we can draw flowchart like diagrams with nodes and their connections, we can easily guess
+which commits are rechable from where, where currently our head is pointing, how branches are placed.
