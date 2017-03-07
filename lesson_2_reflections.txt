@@ -16,3 +16,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 Changes which we feel are part of one logical change, can be added to staging area from working directory.
 Those changes that should not be part of the currently planned commit will still be present in working directory.
 Since staging area contains only those changes which we have added to staging area, only those changes will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+We can use branches when we want to experiment with our code. We can keep stable version untouched.
+Then create a new branch and start experimenting on the new branch. 
+If we fill that the new experiment is successful, then we can merge the branches to bring changes to main branch.
