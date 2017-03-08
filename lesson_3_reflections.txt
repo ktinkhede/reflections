@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When multiple people are collaborating on the same project
+When we are ready to share our code with others.
+When we want to publish our product
+Its always better to have your repository in remote location, because your system migh crash at some point in time.
