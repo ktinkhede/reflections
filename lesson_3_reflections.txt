@@ -17,3 +17,7 @@ Fork creates an exact copy on our github account.
 Clone actually creates a copy of the repository on local machine.
 We can create copy of a local repository as well as remote repositories.
 Branch is created when we want to introduce certain experimental changes, but without affecting the original codebase.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+We can merge our new changes with the actual remote repositories even when we are offline.
+Also we can compare the changes easily.
